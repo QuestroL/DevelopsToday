@@ -3,8 +3,8 @@
     public class CabData
     {
         public int Id { get; set; }
-        public DateTime TpepPickupDatetime { get; set; }
-        public DateTime TpepDropoffDatetime { get; set; }
+        public DateTime TpepPickUpDateTime { get; set; }
+        public DateTime TpepDropOffDateTime { get; set; }
         public int? PassengerCount { get; set; }
         public float? TripDistance { get; set; }
         public string? StoreAndFwdFlag { get; set; }

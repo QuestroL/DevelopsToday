@@ -12,9 +12,9 @@ namespace DevelopsToday.Service.Model
         [Name("VendorID")]
         public int? VendorID { get; set; }
         [Name("tpep_pickup_datetime")]
-        public DateTime? TpepPickupDatetime { get; set; }
+        public DateTime? TpepPickUpDateTime { get; set; }
         [Name("tpep_dropoff_datetime")]
-        public DateTime? TpepDropoffDatetime { get; set; }
+        public DateTime? TpepDropOffDateTime { get; set; }
         [Name("passenger_count")]
         public int? PassengerCount { get; set; }
         [Name("trip_distance")]
